@@ -1,0 +1,15 @@
+﻿@{
+
+    Negocio.Usuario usuario = null;
+
+    if (Session["Usuario"] != null)
+    {
+        usuario = (Negocio.Usuario)Session["Usuario"];
+    }
+
+}
+
+ @if (usuario != null)
+ {
+    <h1> Usuario: mi usuario es @usuario.Nombre @usuario.Apellido</h1>
+ }
