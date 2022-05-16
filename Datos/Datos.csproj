@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cursos.cs" />
+    <Compile Include="Auditorias.cs" />
     <Compile Include="Cursos_Alumnos.cs" />
     <Compile Include="Materias.cs" />
     <Compile Include="Notificacion.cs" />

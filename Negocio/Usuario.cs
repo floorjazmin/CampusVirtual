@@ -135,7 +135,7 @@ namespace Negocio
             Usuario.IdUsuario = Convert.ToInt32(item["IdUsuario"]);
             Usuario.Nombre = item["Nombre"].ToString();
             Usuario.Apellido = item["Apellido"].ToString();
-           // Usuario.Permiso = Permiso.Obtener(Convert.ToInt32(item["IdPermiso"]));
+            Usuario.Permiso = Permiso.Obtener(Convert.ToInt32(item["IdPermiso"]));
             Usuario.Estado = (Entidades.Enumerables.Estados)(Convert.ToInt32(item["IdEstado"]));
             Usuario.Clave = item["Clave"].ToString();
             Usuario.Direccion = item["Direccion"].ToString();

@@ -77,7 +77,7 @@ namespace Negocio
         {
             error = "";
 
-            if (Curso_Alumno.Alumno.TipoUsuario!= Entidades.Enumerables.TipoUsuarios.Alumno)
+            if (Curso_Alumno.Alumno.TipoUsuario != Entidades.Enumerables.TipoUsuarios.Alumno)
                 error += "El usuario que desea ingresar no es un alumno";
 
             if (string.IsNullOrEmpty(error))
